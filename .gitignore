@@ -31,3 +31,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# electron build source
+build_project/
+temp_work/

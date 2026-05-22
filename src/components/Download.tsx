@@ -16,7 +16,7 @@ const platforms = [
     name: 'Windows (Portable)',
     icon: Monitor,
     version: 'v2.0.1',
-    size: '116 MB',
+    size: '110 MB',
     gradient: 'from-[#00A3FF] to-[#00D4FF]',
     href: '/downloads/Yaiz-Browser-Portable.zip',
   },
@@ -24,12 +24,20 @@ const platforms = [
     name: 'Windows (Installer)',
     icon: Package,
     version: 'v2.0.1',
-    size: '84 MB',
+    size: '78 MB',
     gradient: 'from-[#00A3FF] to-[#00D4FF]',
     href: '/downloads/Yaiz-Browser-Setup.exe',
   },
   {
-    name: 'macOS',
+    name: 'Linux (x64)',
+    icon: Terminal,
+    version: 'v2.0.1',
+    size: '102 MB',
+    gradient: 'from-[#00D4FF] to-[#7B61FF]',
+    href: '/downloads/Yaiz-Browser-Linux-x64.zip',
+  },
+  {
+    name: 'macOS (Intel)',
     icon: Apple,
     version: 'Coming Soon',
     size: '',
@@ -37,11 +45,11 @@ const platforms = [
     href: '#',
   },
   {
-    name: 'Linux',
-    icon: Terminal,
+    name: 'macOS (Apple Silicon)',
+    icon: Apple,
     version: 'Coming Soon',
     size: '',
-    gradient: 'from-[#00D4FF] to-[#7B61FF]',
+    gradient: 'from-[#7B61FF] to-[#9D7AFF]',
     href: '#',
   },
   {
@@ -88,7 +96,7 @@ export default function Download() {
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-12">
           {platforms.map((platform, index) => {
             const Icon = platform.icon;
             return (
