@@ -18,7 +18,7 @@ const platforms = [
     version: 'v2.0.1',
     size: '110 MB',
     gradient: 'from-[#00A3FF] to-[#00D4FF]',
-    href: '/downloads/Yaiz-Browser-Portable.zip',
+    href: 'https://github.com/magyarbacsi6-arch/yaiz-browser/releases/download/v2.0.1/Yaiz-Browser-Portable.zip',
   },
   {
     name: 'Windows (Installer)',
@@ -26,7 +26,7 @@ const platforms = [
     version: 'v2.0.1',
     size: '78 MB',
     gradient: 'from-[#00A3FF] to-[#00D4FF]',
-    href: '/downloads/Yaiz-Browser-Setup.exe',
+    href: 'https://github.com/magyarbacsi6-arch/yaiz-browser/releases/download/v2.0.1/Yaiz-Browser-Setup.exe',
   },
   {
     name: 'Linux (x64)',
@@ -34,7 +34,7 @@ const platforms = [
     version: 'v2.0.1',
     size: '102 MB',
     gradient: 'from-[#00D4FF] to-[#7B61FF]',
-    href: '/downloads/Yaiz-Browser-Linux-x64.zip',
+    href: 'https://github.com/magyarbacsi6-arch/yaiz-browser/releases/download/v2.0.1/Yaiz-Browser-Linux-x64.zip',
   },
   {
     name: 'macOS (Intel)',
